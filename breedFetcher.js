@@ -10,3 +10,5 @@ const fetchBreedDescription = function(query, callback) {
     callback(null,data);
   });
 };
+
+module.exports = fetchBreedDescription;
