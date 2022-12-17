@@ -20,6 +20,7 @@ describe('fetchBreedDescription', () => {
       // we expect an error for this scenario
       let expectedErr = 'Invalid breed';
       assert.equal(err, expectedErr);
+      assert.equal(desc, undefined);
       done();
     });
   });
